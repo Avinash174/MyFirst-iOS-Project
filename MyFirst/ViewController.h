@@ -9,6 +9,12 @@
 
 @interface ViewController : UIViewController
 
+@property NSString *name;
+
+@property int age;
+
+- (void)sayhello;
+
 
 @end
 

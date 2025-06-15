@@ -13,8 +13,8 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)sayhello {
+    NSLog(@"Hello,my name is %@ and i am %d year old",self.name,self.age);
     // Do any additional setup after loading the view.
 }
 
